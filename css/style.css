@@ -46,6 +46,7 @@ body {
     width: 100%;
 }
 
+
 /*----Advantages----*/
 .container-adv {
     padding: 50px    50px !important;
@@ -79,6 +80,7 @@ body {
 }
 .text-adv-content {
     color: #fff;
+    font-size: 13.5px;
 }
 @media screen and (max-width: 576px) {
     .advantages-1, .advantages-2, .advantages-3 {
@@ -102,19 +104,23 @@ body {
 .pilih-alat {
     background: url("../Assets/background_footer_black.jpg") no-repeat;
     background-size: cover;
-    padding: 50px;
+    padding: 5%;
     text-align: center;
     color: #fff;
 }
 .pilih-kosan {
     background: url("../Assets/kosan_back_black.jpg") no-repeat;
     background-size: cover;
-    padding: 50px;
+    padding: 5%;
     text-align: center;
     color: #fff;
 }
 
 /*----Carousel Multi Item----*/
+
+.poster-event{
+    max-height: 450px !important;
+}
 .title-hot-deals, .title-kosan {
     float: left;
 }
