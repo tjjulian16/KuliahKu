@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="Assets/logo.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembayaran</title>
+
+    <body>
+        <section id="navigation-bar">
+            <nav class="navbar navbar-default">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle nav-sideButton" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                  </button>
+                  <a href="index_after_login.html"><img src="Assets/logo.png" class="nav-logo"></a>
+                </div>
+                <div class="collapse navbar-collapse nav-content" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Fakultas<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="kategori_produk.html"><img src="Assets/Fakultas/Logo FTP.jpg" alt="" class="img-fakultas"> FILKOM</a></li>
+                        <li><a href="#"><img src="Assets/Fakultas/Logo FTP.jpg" alt="" class="img-fakultas"> FTP</a></li>
+                        <li><a href="#"><img src="Assets/Fakultas/Logo FTP.jpg" alt="" class="img-fakultas"> FT</a></li>
+                        <li><a href="#"><img src="Assets/Fakultas/Logo FTP.jpg" alt="" class="img-fakultas"> FK</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-menu"><a href="About_us.html">Tentang Kami</a></li>
+                  </ul>
+                  <form class="navbar-form navbar-left">
+                        <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Cari keperluan anda">
+                          <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                              <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                          </div>
+                        </div>
+                    </form>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Hai, Julian<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="Cart.html"><span class="fa fa-shopping-cart"></span> Keranjang</a></li>
+                        <li><a href="index.html"><span class="fa fa-sign-out "></span> Keluar</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            </section>
+
+        <!-- KONTEN CART -->
+
+        <div class="container-fluid">
+            <div class="row header-cart">
+                <ol class="breadcrumb bc-cart">
+                    <li class="breadcrumb-item bc-item"><a href="#">Pengecekan</a></li>
+                    <li class="breadcrumb-item bc-item active">Pembayaran</li>
+                    <li class="breadcrumb-item bc-item"><a href="#">Selesai</a></li>
+                </ol>
+            </div>
+        </div>
+        <div class="container-fluid container-item">
+            <div class="row">
+                <div class="col-lg-7 col-md-7 item-list" style="background-color:white !important">
+                    <form style="text-align:left; background-color:white">
+                        <h2>Lengkapi Data Anda :</h2>
+                                <div class="form-group">
+                                    <label for="text">Nama Lengkap:</label>
+                                    <input type="text" class="form-control" id="username">
+                                </div>
+                                <div class="form-group">
+                                    <label for="text">Email:</label>
+                                    <input type="text" class="form-control" id="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="text">Nomor Telepon:</label>
+                                    <input type="text" class="form-control" id="notel-user">
+                                </div>
+                        
+
+                                    <div class="form-group">
+                                        <label for="text">Alamat Lengkap:</label>
+                                        <input type="text" class="form-control" id="address">
+                                    </div>
+                                    <div class="form-group">
+                                            <label for="text">Kode Pos:</label>
+                                            <input type="text" class="form-control" id="kodepos">
+                                        </div>
+                            </form>
+                </div>
+
+                <div class="col-lg-7 col-md-7 item-list" style="background-color:white !important">
+                    <form style="text-align:left; background-color:white">
+                        <h2>Data Kartu :</h2>
+                                <div class="form-group">
+                                    <label for="text">Nama Lengkap:</label>
+                                    <input type="text" class="form-control" id="username">
+                                </div>
+                                <div class="form-group">
+                                    <label for="text">Nomor Rekening:</label>
+                                    <input type="text" class="form-control" id="norek">
+                                </div>
+                                <div class="form-group">
+                                    <label for="text">Tanggal Kadaluarsa (mm/yy):</label>
+                                    <input type="text" class="form-control" id="tglkadaluarsa">
+                                </div>
+                        
+
+                                    <div class="form-group">
+                                        <label for="text">CCV/CVV:</label>
+                                        <input type="text" class="form-control" id="ccv">
+                                    </div>
+                                    <label for="text">Bank:</label>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="optradio">BRI</label>
+                                    </div>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" name="optradio">Mandiri</label>
+                                    </div>
+                            </form>
+                </div>
+                <div class="col-lg-4 col-md-4 item-price-konfirm">
+                    <div class="row">
+                        <h3 style="text-align: center;">Rincian Pesanan</h3>
+                    </div>
+                    <div class="row">
+                        <p class="price-text-left">Sub Total: </p>
+                        <p class="price-text-right">Rp 17.00.000</p>
+                    </div>
+                    <div class="row">
+                        <p class="price-text-left">Ongkos Kirim (0 - 5 Km) : </p>
+                        <p class="price-text-right">Rp 10.000</p>
+                    </div>
+                    <div class="row">
+                        <p class="price-text-left">Total: </p>
+                        <p class="price-text-right">Rp 17.010.000</p>
+                    </div>
+                    <div class="row" style="margin:0 !important">
+                        <button type="button" class="btn btn-lg button_pembayaran" data-toggle="modal" data-target="#myModal">Konfirmasi Pembayaran</button>
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog modal-sm">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">Konfirmasi Pembayaran</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p>Anda yakin data yang dimasukkan sudah benar?.</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Batal</button>
+                                  <a href="thanks.html"><button type="button" class="btn btn-primary">Konfirmasi</button></a>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!--MODAL UNTUK SELESAI PEMBAYARAN-->
+        <section id="last-part">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 last-part"><span style="font-weight:bold;">Kelompok 3</span> &copy; Copyright 2017</div>
+                </div>
+            </div>
+        </section>
+    </body>
+</head>
+
+</html>

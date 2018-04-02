@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    font-family: 'Montserrat';
+}
+
+/*----navbar----*/
+.navbar-fixed {
+    margin: 0 !important;
+}
+.nav-logo {
+    padding: 0 20px 0 20px;
+    height: 75px;
+    width: 120px;
+    margin: 10px 0 10px 0;
+}
+.nav-content {
+    margin: 30px 0 0 10px;
+}
+.nav-sideButton {
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 576px) {
+    .nav-content {
+        margin: 0;
+    }
+    .nav-logo {
+        margin: 10px 0 0 0;
+        height: 50px;
+        width: 95px;
+    }
+}
+.img-fakultas {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    margin: 5px;
+}
+.navbar {
+    margin-bottom: 0;
+}
+
+/*----Header----*/
+.img-slider {
+    width: 100%;
+}
+
+/*----Advantages----*/
+.container-adv {
+    padding: 50px    50px !important;
+}
+.advantages-1 {
+    height: 100%;
+    background-color: #44c7ee;
+    text-align: center;
+    padding: 20px;
+}
+.advantages-2 {
+    height: 100%;
+    background-color: #18a9bb;
+    text-align: center;
+    padding: 20px;
+}
+.advantages-3 {
+    height: 100%;
+    background-color: #44c7ee;
+    text-align: center;
+    padding: 20px;
+}
+.img-adv {
+    height: 25%;
+    width: 25%;
+    border-radius: 50%;
+}
+.text-adv-title {
+    font-weight: bold;
+    color: #fff;
+}
+.text-adv-content {
+    color: #fff;
+}
+@media screen and (max-width: 576px) {
+    .advantages-1, .advantages-2, .advantages-3 {
+        padding: 5px;
+    }
+    .img-adv {
+        height: 15%;
+        width: 15%;
+    }
+    .text-adv-title {
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .text-adv-content {
+        font-size: 14px;
+    }
+    
+}
+
+/*----Pilih Fitur----*/
+.pilih-alat {
+    background: url("../Assets/background_footer_black.jpg") no-repeat;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+}
+.pilih-kosan {
+    background: url("../Assets/kosan_back_black.jpg") no-repeat;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+/*----Carousel Multi Item----*/
+.title-hot-deals, .title-kosan {
+    float: left;
+}
+.text-hot-deals-title, .text-kosan-title {
+    font-weight: bold;
+}
+.btn-chart {
+    padding: 10px 10px !important;
+    font-size: 18px;
+}
+.icon-chart {
+    margin-right: 10px;
+}
+.kos-slider-content {
+    padding: 0 20px 20px 20px;
+    text-align: center;
+}
+.text-kos-slider {
+    text-align: left;
+}
+.separator-multi-item {
+    width: 100%; 
+    border-width: 3px;
+    padding: 0 !important;
+}
+@media screen and (max-width:576px) {
+    .btn-chart {
+        padding: 5px 20px !important;
+        font-size: 14px;
+    }
+}
+/*----Bonus Section----*/
+#bonus {
+    margin: 50px 0;
+}
+.left-side-bonus, .right-side-bonus {
+    float: left;
+    background: #258db0;
+    color: #fff;
+    padding: 25px;
+}
+.right-side-bonus {
+    float: right;
+    background: #9f1d51;
+}
+.bonus-text {
+    float: left;
+    width: 70%;
+}
+.bonus-img {
+    float: right;
+    width: 30%;
+}
+.img-bonus {
+    width: 150px;
+    height: 105px;
+}
+@media screen and (max-width: 576px) {
+    .img-bonus {
+        width: 100px;
+        height: 70px;
+    }
+    .bonus-img, .bonus-text {
+        width: 100%;
+    }
+    .bonus-img {
+        text-align: center;
+    }
+}
+/*----footer----*/
+#contact-us {
+    background: url("../Assets/background_footer_black.jpg") no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+}
+.startup-address {
+    margin-top: 50px;
+}
+.startup-phone {
+    margin-top: 10px;
+}
+.contact-getin-touch {
+    padding: 0 50px;
+}
+.contact-social-media {
+    margin-top: 50px;
+    text-align: center;
+}
+.socmed-icon {
+    margin: 10px 20px;
+    font-size: 30px !important;
+}
+@media screen and (max-width: 576px) {
+    .contact-getin-touch {
+        padding: 0 20px;
+    }
+}
+/*----LastPart----*/
+.last-part {
+    text-align: center;
+    background: #12A8BB;
+    color: #fff;
+    padding: 20px;
+}
+
+/*---------------------------------------------------------
+-------------------ABOUT US-------------------------------
+---------------------------------------------------------*/
+/*--Pendahuluan--*/
+#pendahuluan{
+    text-align: center;
+    background: url("../Assets/background_footer_black.jpg") no-repeat;
+    background-size: cover;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  #pendahuluan p{
+   margin-top: 2%;
+   padding: 0% 10% 2% 10%;
+   font-size: 20px;
+   text-align: justify;
+   line-height: 2;
+  }
+  .pendahuluan-title {
+    color: #12A8BB;
+  }
+  @media screen and (max-width: 576px) {
+    #pendahuluan p {
+      font-size: 16px;
+    }
+    #pendahuluan img {
+      width: 100px;
+      height: 100px;
+    }
+    .pendahuluan-title {
+      font-size: 24px;
+    }
+  }
+  
+  /*----Fitur----*/
+  #fitur p{
+    font-size: 18px;
+    text-align: justify; 
+    line-height: 2;
+  }
+  .cyan-background {
+    background: #12A8BB;
+    padding: 30px !important;
+  }
+  .white-background {
+    background: #fff;
+    padding: 30px !important;
+  }
+  .fitur-right-side {
+    float: right !important;
+  }
+  .fitur-left-side {
+    float: left !important;
+  }
+  .fitur-img {
+    width: 250px;
+    height: 250px;
+  }
+  .text-fitur-white {
+    color: #fff;
+  }
+  .text-fitur-cyan {
+    color: #12A8BB;
+  }
+  .text-fitur-title {
+    margin: 10px 0 20px 0;
+  }
+  @media screen and (max-width: 576px) {
+    .fitur-img {
+      width: 200px;
+      height: 200px;
+    }
+    .text-fitur-title {
+      font-size: 24px;
+    }
+    .text-fitur-content {
+      font-size: 18px;
+    }
+  }
+
+/*----Cart Page----*/
+.header-cart {
+    padding: 20px;
+}
+.bc-cart {
+    background: none !important;
+    font-size: 16pt;
+    border : none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.bc-item {
+    text-decoration: none;
+}
+  
+/*----item show----*/
+.item-list {
+    border: 1px solid #12A8BB; 
+    background-color: #fff; 
+    padding: 20px;
+    margin: 10px 0;
+}
+.container-item {
+    padding: 0 50px !important;
+    text-align: center;
+}
+.item-img {
+    width: 100%;
+    height: auto;
+}
+.item-price {
+    border: 1px solid #12A8BB; 
+    margin-left: 20px;
+    padding: 30px !important;
+    top: -230px;
+}
+.item-price-deleted {
+    border: 1px solid #12A8BB; 
+    margin-left: 20px;
+    padding: 30px !important;
+    top: 10px;
+    margin-bottom: 2%;
+}
+.item-price-konfirm {
+    border: 1px solid #12A8BB; 
+    margin-left: 20px;
+    margin-bottom: 3%;
+    padding: 30px !important;
+    top: -485px;
+}
+.price-title {
+    font-weight: bold;
+    margin: 10px 0;
+}
+.price-text-left {
+    float: left;
+}
+.price-text-right {
+    float: right;
+}
+@media screen and (max-width: 576px) {
+    .item-price, .item-price-konfirm {
+        top: 0;
+        margin: 0 0 3% 0;
+    }
+}
+.button_pembayaran{
+    font-size: 20px;
+    text-decoration: none;
+    background-color:#12A8BB !important;
+    color:white;
+    padding: 10px;
+    float: right !important;
+    margin: auto;
+}
+.button_pembayaran:hover {
+    text-decoration: none;
+}
+
+/*----Registrasi Toko----*/
+.container-regis {
+    text-align: center;
+    padding: 10px 0;
+}
+.field-regis-toko {
+    text-align: left;
+    margin: 0 auto;
+    border: 1px solid #18BBDD;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.regis-toko-title {
+    text-align: center;
+}
+.form_pendaftaran_toko input[type=text], .form_pendaftaran_toko input[type=password]{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.form_pendaftaran_toko p {
+  margin: 10px;
+  text-align: justify; 
+  color: rgba(128,128,128,0.85);
+  margin-left: 25%;
+}
+.btn-daftar-toko{
+  font-size: 25px;
+  text-decoration: none;
+  background-color:#12A8BB;
+  color:white;
+  padding: 10px 50px;
+  margin: 0 40%;
+}
+
+.form_pendaftaran_toko a{
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #12A8BB;
+  opacity: 0.85;
+}
+@media screen and (max-width:576px) {
+    .btn-daftar-toko {
+        font-size: 16px;
+        padding: 5px 25px;
+        margin: 10px;
+    }    
+}
+/*-------------------------
+---------Sign Up-----------
+-------------------------*/
+.logo-signup {
+    width: 125px;
+    height: 125px;
+    margin: 5px 45%;
+}
+.sign-img {
+    width: 250px; 
+    height: auto;
+}
+.left-signup-side {
+    text-align: center; 
+    margin-top: 3%; 
+    border-right: 1px solid grey; 
+    padding: 2% 0; 
+}
+@media screen and (max-width: 576px){
+    .logo-signup {
+        margin: 2px 25%;
+    }
+    .sign-img {
+        width: 200px;
+    }
+    .left-signup-side {
+        border: none;
+    }
+}
+
+/*--------------------------
+--------ThanksALot----------
+--------------------------*/
+#thanks-alot {
+    width: 100%;
+    height: 100%;
+    padding: 16% 20px;
+    background: #fff;
+    color: #12A8BB;
+    text-align: center;
+}

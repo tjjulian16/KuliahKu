@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<link rel="icon" href="../picture/logo.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Daftar Akun Toko</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css" />
+		
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+    <body>
+			<section id="navigation-bar">
+					<nav class="navbar navbar-default">
+					  <div class="container">
+						<div class="navbar-header">
+						  <button type="button" class="navbar-toggle nav-sideButton" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>                        
+						  </button>
+						  <a href="#"><img src="Assets/logo.png" class="nav-logo"></a>
+						</div>
+						<div class="collapse navbar-collapse nav-content" id="myNavbar">
+						  <ul class="nav navbar-nav">
+							<li class="dropdown">
+							  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Fakultas<span class="caret"></span></a>
+							  <ul class="dropdown-menu">
+								<li><a href="#"><img src="Assets/Fakultas/Logo FTP.jpg" alt="" class="img-fakultas"> FTP</a></li>
+								<li><a href="#"><img src="Assets/Fakultas/Logo FTP.jpg" alt="" class="img-fakultas"> FTP</a></li>
+								<li><a href="#"><img src="Assets/Fakultas/Logo FTP.jpg" alt="" class="img-fakultas"> FTP</a></li>
+								<li><a href="#"><img src="Assets/Fakultas/Logo FTP.jpg" alt="" class="img-fakultas"> FTP</a></li>
+							  </ul>
+							</li>
+							<li class="nav-menu"><a href="#">Tentang Kami</a></li>
+						  </ul>
+						  <form class="navbar-form navbar-left">
+								<div class="input-group">
+								  <input type="text" class="form-control" placeholder="Search">
+								  <div class="input-group-btn">
+									<button class="btn btn-default" type="submit">
+									  <i class="glyphicon glyphicon-search"></i>
+									</button>
+								  </div>
+								</div>
+							</form>
+						  <ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+							  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Hai, Julian<span class="caret"></span></a>
+							  <ul class="dropdown-menu">
+								<li><a href="#"><span class="fa fa-shopping-cart"></span> Keranjang</a></li>
+								<li><a href="#"><span class="fa fa-sign-out "></span> Keluar</a></li>
+							  </ul>
+							</li>
+						  </ul>
+						</div>
+					  </div>
+					</nav>
+					</section>
+        <!-- KONTEN REGISTRASI -->
+        <div class="container-fluid container-regis">
+            <div class="row">
+                <div class="col-lg-12 col-xs-12" style="padding: 0; margin: 0">
+                    <img src="Assets/logo.png" class="logo-regis" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-xs-12">
+
+                    <div class="field-regis-toko">
+                        <div class="regis-toko-title">
+                            <h2>Daftar Akun Baru</h2>
+                            <p>Sudah punya akun KuliahKu? <a href="#">Masuk</a></p>
+                        </div>
+                        <div class="form_pendaftaran_toko">
+                            <form>
+                                <div class="form-group">
+                                    <label for="text">Nama Lengkap:</label>
+                                    <input type="text" class="form-control" id="username">
+                                </div>
+                                <div class="form-group">
+                                    <label for="text">Email:</label>
+                                    <input type="text" class="form-control" id="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="text">Nomor Telepon:</label>
+                                    <input type="text" class="form-control" id="notel-user">
+                                </div>
+                                <label for="text">Jenis Usaha:</label>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="optradio">Perseorangan</label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="optradio">UMKM Mahasiswa</label>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="form-group">
+                                        <label for="text">Asal Perguruan Tinggi:</label>
+                                        <input type="text" class="form-control" id="college">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="text">Alamat Usaha:</label>
+                                        <input type="text" class="form-control" id="company-address">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="text">Nama Usaha:</label>
+                                        <input type="text" class="form-control" id="company-name">
+                                    </div>
+                                    <label for="pwd">Password:</label>
+                                    <input type="password" class="form-control" id="pwd">
+                                </div>
+
+                                <button type="submit" class="btn btn-primary btn-daftar-toko">Daftar Toko</button>
+                            </form>
+
+                            <p style="margin-top: 50px; margin-left: 12%;">Dengan menekan Daftar Akun, saya mengkonfirmasi telah menyetujui <a href="#">Syarat dan Ketentuan</a>, serta <a href="#">Kebijakan Privasi</a> KuliahKu.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

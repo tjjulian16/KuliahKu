@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>KuliahKu</title>
+  <meta charset="utf-8">
+  <link rel="icon" href="Assets/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/jcarousel.responsive.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/jcarousel.responsive.js"></script>
+  <script src="js/jquery.jcarousel.min.js"></script>
+</head>
+<body>
+<section id="navigation-bar">
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle nav-sideButton" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a href="index.html"><img src="Assets/logo.png" class="nav-logo"></a>
+    </div>
+    <div class="collapse navbar-collapse nav-content" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Fakultas<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="kategori_produk.html"><img src="Assets/Fakultas/Logo FTP.jpg" alt="" class="img-fakultas"> FILKOM</a></li>
+            <li><a href="#"><img src="Assets/Fakultas/Logo FTP.jpg" alt="" class="img-fakultas"> FTP</a></li>
+            <li><a href="#"><img src="Assets/Fakultas/Logo FTP.jpg" alt="" class="img-fakultas"> FT</a></li>
+            <li><a href="#"><img src="Assets/Fakultas/Logo FTP.jpg" alt="" class="img-fakultas"> FK</a></li>
+          </ul>
+        </li>
+        <li class="nav-menu"><a href="About_us.html">Tentang Kami</a></li>
+      </ul>
+      <form class="navbar-form navbar-left">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Cari keperluan anda">
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </div>
+            </div>
+        </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Daftar</a></li>
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Masuk</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</section>
+<section id="header">
+    <div class="container-fluid">
+      <div class="row">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="Assets/iklan1.png" alt="Iklan 1" class="img-slider">
+            </div>
+      
+            <div class="item">
+              <img src="Assets/iklan2.png" alt="Iklan 2" class="img-slider">
+            </div>
+          
+            <div class="item">
+              <img src="Assets/iklan3.png" alt="Iklan 3" class="img-slider">
+            </div>
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      </div>
+</section>
+<section id="advantages">
+  <div class="container-fluid container-adv">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 advantages-1">
+        <img src="Assets/Ojek.png" alt="Ojek" class="img-adv">
+        <h3 class="text-adv-title">Kurir Internal</h3>
+        <p class="text-adv-content">Free Delivery untuk awal tahun</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 advantages-2">
+        <img src="Assets/gembok.png" alt="Ojek" class="img-adv">
+        <h3 class="text-adv-title">Keamanan Transaksi</h3>
+        <p class="text-adv-content">Dengan sistem rekening bersama maka transaksi anda akan aman</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 advantages-3">
+        <img src="Assets/MART.png" alt="Ojek" class="img-adv">
+        <h3 class="text-adv-title">UMKM Mahasiswa</h3>
+        <p class="text-adv-content">Bekerjasama dengan UMKM milik mahasiswa</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="pilih-fitur">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 col-xs-12 pilih-alat">
+        <h3>Cari Keperluan Kuliahmu Berdasarkan Fakultasmu</h3>
+        <p>KuliahKu menyediakan semua perlengkapan kuliahmu dari hulu ke hilir dengan harga mahasiswa</p>
+        <a href="#" class="btn btn-primary">Klik Disini <span class="fa fa-arrow-circle-o-right"></span></a>
+      </div>
+      <div class="col-lg-6 col-xs-12 pilih-kosan">
+        <h3>Cari Tempat Tinggal Idamanmu</h3>
+        <p>KuliahKu menyediakan berbagai macam jenis tempat tinggal/kosan yang sesuai dengan keinginanmu</p>
+        <a href="#" class="btn btn-primary">Cari Sekarang <span class="fa fa-arrow-circle-o-right"></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="bonus">
+  <div class="container">
+    <div class="row">
+      <div class="left-side-bonus col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="bonus-text">
+          <h3><span style="font-weight:bold;">VOUCHER</span> DISKON</h3>
+          <p>Dapatkan voucher diskon setiap bulan dengan menjadi <span style="font-weight:bold;">PREMIUM</span> SELLER</p>
+        </div>
+        <div class="bonus-img">
+          <img src="Assets/diskon-logo.png" class="img-bonus" alt="">
+        </div>
+      </div>
+      <div class="right-side-bonus col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="bonus-text">
+          <h3><span style="font-weight:bold;">FREE</span> DELIVERY</h3>
+          <p>Jika anda menggunakan fitur <span style="font-weight:bold;">KurirKu</span> dalam pengiriman barang</p>
+        </div>
+        <div class="bonus-img">
+          <img src="Assets/Motor-Ojek.png" class="img-bonus" alt="">
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+<section id="hotdeals">
+  <div class="container">
+  <h3 class="title-hot-deals">Hot Deals</h3>
+  <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+  <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+  <hr class="col-lg-12 col-xs-12 separator-multi-item">
+  <div class="jcarousel-wrapper">
+      <div class="jcarousel">
+          <ul>
+              <li>
+                <img src="Assets/benda6.png" alt="Image 1">
+                <h3 class="text-hot-deals-title">Laptop ASUS ROG</h3>
+                <h4 class="text-hot-deals-seller">Yudistira J.</h4>
+                <h4 class="text-hot-deals-price">Rp. 10.000.000,00</h4>
+                <a href="#" class="btn btn-primary btn-chart text-hot-deals-chart"><span class="fa fa-shopping-cart icon-chart"></span>Tambahkan Ke Keranjang</a>
+              </li>
+              <li>
+                <img src="Assets/benda4.png" alt="Image 1">
+                <h3 class="text-hot-deals-title">Kamera Sony RX100</h3>
+                <h4 class="text-hot-deals-seller">Budi H.</h4>
+                <h4 class="text-hot-deals-price">Rp. 5.000.000,00</h4>
+                <a href="#" class="btn btn-primary btn-chart text-hot-deals-chart"><span class="fa fa-shopping-cart icon-chart"></span>Tambahkan Ke Keranjang</a>
+              </li>
+              <li>
+                <img src="Assets/benda5.png" alt="Image 1">
+                <h3 class="text-hot-deals-title">Tablet Samsung Galaxy</h3>
+                <h4 class="text-hot-deals-seller">Andi B.</h4>
+                <h4 class="text-hot-deals-price">Rp. 7.000.000,00</h4>
+                <a href="#" class="btn btn-primary btn-chart text-hot-deals-chart"><span class="fa fa-shopping-cart icon-chart"></span>Tambahkan Ke Keranjang</a>
+              </li>
+              <li>
+                  <img src="Assets/benda6.png" alt="Image 1">
+                  <h3 class="text-hot-deals-title">Laptop Macbook Pro</h3>
+                  <h4 class="text-hot-deals-seller">Arif C.</h4>
+                  <h4 class="text-hot-deals-price">Rp. 15.000.000,00</h4>
+                  <a href="#" class="btn btn-primary btn-chart text-hot-deals-chart"><span class="fa fa-shopping-cart icon-chart"></span>Tambahkan Ke Keranjang</a>
+                </li>
+                <li>
+                  <img src="Assets/benda4.png" alt="Image 1">
+                  <h3 class="text-hot-deals-title">Kamera Nikon DSLR</h3>
+                  <h4 class="text-hot-deals-seller">Udin H.</h4>
+                  <h4 class="text-hot-deals-price">Rp. 6.500.000,00</h4>
+                  <a href="#" class="btn btn-primary btn-chart text-hot-deals-chart"><span class="fa fa-shopping-cart icon-chart"></span>Tambahkan Ke Keranjang</a>
+                </li>
+                <li>
+                  <img src="Assets/benda5.png" alt="Image 1">
+                  <h3 class="text-hot-deals-title">Tablet Ipad Air</h3>
+                  <h4 class="text-hot-deals-seller">Tio V.</h4>
+                  <h4 class="text-hot-deals-price">Rp. 12.000.000,00</h4>
+                  <a href="#" class="btn btn-primary btn-chart text-hot-deals-chart"><span class="fa fa-shopping-cart icon-chart"></span>Tambahkan Ke Keranjang</a>
+          </ul>
+      </div>
+  </div>
+  </div>
+</section>
+<section id="contact-us">
+  <div class="container">
+    <div class="row">
+      <h2>Kontak Kami</h2>
+      <form action="" class="col-lg-8 col md-8 col-sm-12 col-xs-12">
+      <h3>Berikan Komentar Anda</h3>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Nomor Telepon:</label>
+        <input type="text" class="form-control" id="pwd">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Komentar:</label>
+        <textarea class="form-control" id="comment"></textarea>
+      </div>
+      <button type="submit" class="btn btn-default">Kirim</button>
+    </form>
+    <div class="col-lg-4 col md-4 col-sm-12 col-xs-12 contact-getin-touch">
+      <h3>Temukan Kami</h3>
+      <h5><span class="fa fa-home startup-address"></span> Jln. D.I. Panjaitan, Lowokwaru, Malang</h5>
+      <h5><span class="fa fa-phone-square startup-phone"></span> +62 822-4247-7726</h5>
+      
+      <div class="contact-social-media">
+        <h3>Media Sosial Kami</h3>
+        <span class="fa fa-facebook-official socmed-icon"></span><span class="fa fa-twitter-square socmed-icon"></span><span class="fa fa-instagram socmed-icon"></span>
+      </div>
+      
+    </div>
+    </div> 
+</div>
+</section>
+<section id="last-part">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 last-part"><span style="font-weight:bold;">Kelompok 3</span> &copy; Copyright 2017</div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
