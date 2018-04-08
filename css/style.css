@@ -121,6 +121,10 @@ body {
 .poster-event{
     max-height: 450px !important;
 }
+.produk-hot-deals{
+    max-height: 300px !important;
+    
+}
 .title-hot-deals, .title-kosan {
     float: left;
 }
@@ -480,4 +484,14 @@ body {
     background: #fff;
     color: #12A8BB;
     text-align: center;
+}
+
+.kotak_kategori_produk{
+    border:1px solid #12A8BB; margin: 2% 2% 1% 2%;
+}
+.foto_kategori_produk{
+    width: auto; max-height: 170px;   margin: 10% 20% 2% 25%;
+}
+.data_kategori_produk{
+    padding-bottom: 4%; text-align: center; border-top: 2px solid #12A8BB; margin-bottom: 10%;
 }
