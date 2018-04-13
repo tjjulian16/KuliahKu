@@ -490,8 +490,23 @@ body {
     border:1px solid #12A8BB; margin: 2% 2% 1% 2%;
 }
 .foto_kategori_produk{
-    width: auto; max-height: 170px;   margin: 10% 20% 2% 25%;
+    width: auto; max-height: 170px;   margin: 10% 20% 2% 20%;
 }
 .data_kategori_produk{
     padding-bottom: 4%; text-align: center; border-top: 2px solid #12A8BB; margin-bottom: 10%;
+}
+.checkbox_filter{
+    float: left; margin-left: 5%; > 
+}
+
+.btn-beli-sekarang{
+    border-width: 0px; 
+    text-decoration: none;
+    font-size: 20px;
+    color: white; 
+    padding:10px 30%; 
+    margin-left: 25px;
+    margin-bottom: 25px; 
+    background-color: #12A8BB;
+    
 }
